@@ -20,6 +20,8 @@
 	"plugins": ["@typescript-eslint", "prettier"],
 	"rules": {
 		"prettier/prettier": "error",
+		"class-methods-use-this": "off",
+		"@typescript-eslint/camelcase": "off",
 		"indent": ["error", "tab"],
 		"linebreak-style": ["error", "unix"],
 		"quotes": ["error", "single"],
